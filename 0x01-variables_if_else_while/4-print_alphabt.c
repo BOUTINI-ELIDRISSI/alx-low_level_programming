@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 /**
- *  * main - Entry point
- *   *
- *    * Return: Always 0 (Success)
- *     */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 52; i++)
 	{
-		if(alp[i] != 'q' && alp[i] != 'e')
+		if (alp[i] != 'q' && alp[i] != 'e')
 		{
 			putchar(alp[i]);
 		}
