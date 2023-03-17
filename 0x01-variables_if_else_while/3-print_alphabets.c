@@ -16,5 +16,5 @@ int main(void)
 		putchar(ch);
 	}
 	putchar('\n');
-sh: 1: q: not found
+	return (0);
 }
