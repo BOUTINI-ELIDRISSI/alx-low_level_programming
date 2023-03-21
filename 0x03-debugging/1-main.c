@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * main - causes an infinite loop
+ * Return: 0
  */
 
 int main(void)
 {
 	int i;
 
-	printf("Infinite koop incoming :(\n");
+	printf("Infinite loop incoming :(\n");
 	/*
 	i = 0;
 
