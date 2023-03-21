@@ -4,7 +4,7 @@
  * print_sign - Shows + if the input is a
  * greater than zero. Shows 0 if the input is a
  * zero. Show - if the input is less than zero
- * 
+ *
  * @n: The input number as an integer
  *
  * Return: 1 is greater than zero. 0 is zero.
