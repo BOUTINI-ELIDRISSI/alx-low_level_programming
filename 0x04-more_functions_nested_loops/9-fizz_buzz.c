@@ -2,7 +2,10 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - print the number from 1 to 100
+ * 3 multiples print Fizz insted of number
+ * 5 print Buzz insted of number
+ * 3 & 5 print FizzBuzz
  *
  * Return: Always 0.
  */
