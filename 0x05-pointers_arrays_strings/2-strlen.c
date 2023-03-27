@@ -6,9 +6,12 @@
  *
  * @s: input
  *
- * Return: n
+ * Return: lenght
  */
 int _strlen(char *s)
 {
-	return strlen(*s);
+	int len;
+
+	len = strlen(s);
+	return (len);
 }
