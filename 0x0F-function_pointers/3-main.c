@@ -15,7 +15,6 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	int num1, num2;
 	char *op;
 
-
 	if (argc != 4)
 	{
 		printf("Error\n");
@@ -31,9 +30,8 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 	}
 	if ((*op == '/' && num2 == 0) ||
 			(*op == '%' && num2 == 0))
-
 	{
-		printf("Eroor\n");
+		printf("Error\n");
 		exit(100);
 	}
 	printf("%d\n", get_op_func(op)(num1, num2));
