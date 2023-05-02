@@ -30,7 +30,7 @@ size_t looplenList(const listint_t *h)
 				re = re->next;
 			}
 			se = se->next;
-			while (se != hare)
+			while (se != re)
 			{
 				ns++;
 				se = se->next;
