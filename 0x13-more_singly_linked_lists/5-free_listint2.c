@@ -14,7 +14,7 @@ void free_listint2(listint_t **head)
 	{
 		chigan = (*head)->next;
 		free(*head);
-		*head = chigan;	
+		*head = chigan;
 	}
 	*head = NULL;
 }
