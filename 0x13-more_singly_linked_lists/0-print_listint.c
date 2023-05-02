@@ -12,7 +12,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h)
 	{
-		printf("%d\n", h->a);
+		printf("%d\n", h->n);
 		nemuro++;
 		h = h->next;
 	}
